@@ -1,0 +1,6 @@
+2016-02-12 23:55:35,912 INFO Wrapper script running on compute-1-12.local (pid: 1269, 7).
+2016-02-12 23:55:35,914 INFO Opened workspace SENTINEL_jkg36_Fri_Feb_12_23:55:34_2016_AMNIOTA_V2.simplequeue on compute-1-12.local at 36107.
+2016-02-12 23:55:36,349 INFO Fetched task 1: source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/AMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr22
+2016-02-12 23:55:36,398 INFO Task 1: child 1276 started at 1455339336.396322
+2016-02-13 04:07:04,108 INFO Task 1: pid 1276 returned 0.
+2016-02-14 11:32:02,319 INFO Wrapper script exiting on compute-1-12.local (pid: 1269, 7), "engine 7 task" after 1 tasks.

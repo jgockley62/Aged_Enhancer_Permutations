@@ -1,0 +1,3 @@
+2016-02-18 03:15:48,954 INFO Batch script starting in earnest (pid: 682).
+2016-02-18 03:15:48,955 INFO About to Popen ['/ycga-ba/home/nick/projects/SimpleQueue/SimpleQueue/2012/SQDedDriver.py', '--logFile=SQ_Files_1019267.rocks.local//SQ.log', '--maxTasksPerNode=1', '--pnwss', '--wrapperVerbose', 'EUTHERIA_V4.simplequeue'].
+2016-02-18 03:15:49,035 INFO Child 683 started.

@@ -1,0 +1,34 @@
+2016-02-17 10:56:22.621 INFO Started personal networkspace server: compute-4-11.local 44820 44399
+2016-02-17 10:56:22.622 INFO Control process is 17381.
+2016-02-17 10:56:22.622 INFO sqDedicated run started using nws server compute-4-11.local 44820
+2016-02-17 10:56:22.622 INFO Sentinel key: SENTINEL_jkg36_Wed_Feb_17_10:56:22_2016_EUTHERIA_V3.simplequeue
+2016-02-17 10:56:22.652 INFO pbsdsh pid: 17410
+2016-02-17 10:56:25.642 INFO Nodelist: ['compute-2-14.local', 'compute-3-4.local', 'compute-3-7.local', 'compute-3-9.local', 'compute-4-11.local']
+2016-02-17 10:56:25.672 INFO Launching on 33 (compute-3-4.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/EUTHERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed ChrX
+2016-02-17 10:56:25.673 INFO Fetching extra data for task 0 from workspace.
+2016-02-17 10:56:25.872 INFO Launching on 2 (compute-4-11.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/EUTHERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr20
+2016-02-17 10:56:25.874 INFO Fetching extra data for task 1 from workspace.
+2016-02-17 10:56:26.073 INFO Launching on 20 (compute-3-7.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/EUTHERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr15
+2016-02-17 10:56:26.074 INFO Fetching extra data for task 2 from workspace.
+2016-02-17 10:56:26.273 INFO Launching on 10 (compute-3-9.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/EUTHERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr10
+2016-02-17 10:56:26.275 INFO Fetching extra data for task 3 from workspace.
+2016-02-17 10:56:26.473 INFO Launching on 35 (compute-2-14.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/EUTHERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr7
+2016-02-17 10:56:26.476 INFO Fetching extra data for task 4 from workspace.
+2016-02-17 10:56:26.674 INFO All tasks launched.
+2016-02-17 10:56:26.674 INFO Draining pool.
+2016-02-17 20:58:33.515 INFO Extra data for task 1 from workspace: (0, 0) 1455724585.876544 1455760713.501163 0 17423 compute-4-11.local
+2016-02-17 20:58:33.517 INFO Releasing 2 (compute-4-11.local) for task 1 (True).
+2016-02-17 21:24:52.133 INFO Extra data for task 0 from workspace: (0, 0) 1455724585.684100 1455762292.097527 0 26843 compute-3-4.local
+2016-02-17 21:24:52.135 INFO Releasing 33 (compute-3-4.local) for task 0 (True).
+2016-02-17 21:50:32.536 INFO Extra data for task 2 from workspace: (0, 0) 1455724586.076850 1455763832.494060 0 5566 compute-3-7.local
+2016-02-17 21:50:32.538 INFO Releasing 20 (compute-3-7.local) for task 2 (True).
+2016-02-18 02:33:24.180 INFO Extra data for task 3 from workspace: (0, 0) 1455724586.279452 1455780804.006961 0 8917 compute-3-9.local
+2016-02-18 02:33:24.182 INFO Releasing 10 (compute-3-9.local) for task 3 (True).
+2016-02-18 03:15:44.957 INFO Extra data for task 4 from workspace: (0, 0) 1455724586.492536 1455783344.798330 0 28580 compute-2-14.local
+2016-02-18 03:15:44.959 INFO Releasing 35 (compute-2-14.local) for task 4 (True).
+2016-02-18 03:15:44.959 INFO Notify drainCV.
+2016-02-18 03:15:44.959 INFO runTasks has finished.
+2016-02-18 03:15:44.974 INFO Remaining tasks dumped to EUTHERIA_V3.simplequeue.REMAINING.
+2016-02-18 03:15:44.975 INFO Run completed.
+2016-02-18 03:15:44.979 INFO Received signal 15, but already shutting down.
+2016-02-18 03:15:44.979 INFO Falling off the end of the world.

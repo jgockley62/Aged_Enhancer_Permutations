@@ -1,0 +1,105 @@
+#Denna's Enhancer Permutation 
+##From Denna:
+#There are 5 enhancer age groups: Eutheria, Theria, Mammalia, Amniota, Older_than_Amniota
+
+#Everything is in this folder: /home/de77/Cortex_Enhancer_Shuffle_for_PNAS
+
+#There are 3 bed files for each age group: one for whole enhancers, one for cores, and one with both 
+#(e.g. Eutheria_enhancers_CS23.bed, Eutheria_cores.bed, Eutheria_enhancers_cores.bed). 
+#Enhancer file is bed file with 4th column as enhancer name; core file is bed file with 4th column as core age, 5th column as enhancer name; enhancer_core file has first 4 columns for cores, last 4 columns for whole enhancer and 8th column is enhancer name).
+
+#For the intersection of enhancers with phastCons elements:
+#intersectBed -c -a /home/de77/Cortex_Enhancer_Shuffle_for_PNAS/Eutheria_enhancers_CS23.bed -b /home/de77/Cortex_Enhancer_Shuffle_for_PNAS/phastCons_elements.bed > /home/de77/Cortex_Enhancer_Shuffle_for_PNAS/Eutheria_enhancers_phastCons.bed 
+
+#enhancers_phastCons.bed results file is bed file for enhancer, 4th column is enhancer name, 5th column is number of phastCons elements in enhancer.
+
+#For the intersection of cores with phastCons elements:
+#intersectBed -c -a /home/de77/Cortex_Enhancer_Shuffle_for_PNAS/Eutheria_cores.bed -b /home/de77/Cortex_Enhancer_Shuffle_for_PNAS/phastCons_elements.bed > /home/de77/Cortex_Enhancer_Shuffle_for_PNAS/Eutheria_cores_phastCons.bed 
+
+#cores_phastCons.bed results file is bed file for core, 4th column is core age, 5th column is enhancer name, 6th column is number of phastCons elements in core.
+
+#exclude promoters and exons in shuffles:
+#/home/jl56/GENOME/Ensembl/Homo_sapiens.GRCh37.67.promoter.bed  /home/jl56/GENOME/Ensembl/Homo_sapiens.GRCh37.67.exon.bed 
+
+
+#START Analysis Here
+cd /Users/Sazerac/Dropbox/DENNA_Shuf
+
+#Entire /home/de77/Cortex_Enhancer_Shuffle_for_PNAS directy pulled to local
+#Organize Directory by age
+mkdir MAMMALIA
+mkdir THERIA
+mkdir AMNIOTA
+mkdir OlderThanAMNIOTA
+mkdir EUTHERIA
+
+#Re-arrange directory by age
+mv Mammalia* MAMMALIA/
+mv Theria* THERIA/
+mv Amniota* AMNIOTA/
+mv Older_than_Amniota_* OlderThanAMNIOTA/
+mv Eutheria* EUTHERIA/
+
+#Get hg19.chrom.sizes
+#Get Homo_sapiens.GRCh37.67 exon and Promoter Bed
+
+#Work on permuting Mammalia
+##Rearrange input of 
+cd MAMMALIA/
+perl ../Re_Arrange_BED.pl Mammalia_enhancers_cores.bed 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

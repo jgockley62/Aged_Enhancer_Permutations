@@ -1,0 +1,6 @@
+source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr4
+source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr18
+source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr13
+source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr8
+source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr5
+

@@ -1,0 +1,3 @@
+2016-02-17 10:56:23,260 INFO Wrapper script running on compute-4-11.local (pid: 17412, 3).
+2016-02-17 10:56:23,262 INFO Opened workspace SENTINEL_jkg36_Wed_Feb_17_10:56:22_2016_EUTHERIA_V3.simplequeue on compute-4-11.local at 44820.
+2016-02-17 10:56:23,264 INFO Wrapper script exiting (pid: 17412, 3): I'm not wanted.

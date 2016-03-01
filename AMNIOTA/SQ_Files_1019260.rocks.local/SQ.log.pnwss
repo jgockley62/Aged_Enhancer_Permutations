@@ -1,0 +1,16 @@
+2016-02-12 23:55:34-0500 [-] Log opened.
+2016-02-12 23:55:34-0500 [-] using temp directory /tmp
+2016-02-12 23:55:34-0500 [-] NwsFactory starting on 36107
+2016-02-12 23:55:34-0500 [-] Starting factory <nwss.server.NwsFactory instance at 0x22639e0>
+2016-02-12 23:55:34-0500 [-] clientCode served from directory clientCode
+2016-02-12 23:55:34-0500 [-] clientCode directory doesn't exist
+2016-02-12 23:55:34-0500 [-] Site starting on 40354
+2016-02-12 23:55:34-0500 [-] Starting factory <twisted.web.server.Site instance at 0x225fab8>
+2016-02-14 11:32:02-0500 [-] Got stop semaphore. Adding call to reactor.stop.
+2016-02-14 11:32:02-0500 [nwss.server.NwsFactory] (TCP Port 36107 Closed)
+2016-02-14 11:32:02-0500 [nwss.server.NwsFactory] Stopping factory <nwss.server.NwsFactory instance at 0x22639e0>
+2016-02-14 11:32:02-0500 [twisted.web.server.Site] (TCP Port 40354 Closed)
+2016-02-14 11:32:02-0500 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x225fab8>
+2016-02-14 11:32:02-0500 [-] Main loop terminated.
+2016-02-14 11:32:02-0500 [-] stopping NwsService
+2016-02-14 11:32:02-0500 [-] stopping complete

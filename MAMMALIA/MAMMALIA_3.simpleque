@@ -1,0 +1,1 @@
+source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/MAMMALIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr3

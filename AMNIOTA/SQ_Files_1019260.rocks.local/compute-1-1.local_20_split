@@ -1,0 +1,1 @@
+2 0 0: 'source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/AMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr16'

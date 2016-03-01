@@ -1,0 +1,8 @@
+2016-02-14 04:47:37-0500 [-] Log opened.
+2016-02-14 04:47:37-0500 [-] using temp directory /tmp
+2016-02-14 04:47:37-0500 [-] NwsFactory starting on 46141
+2016-02-14 04:47:37-0500 [-] Starting factory <nwss.server.NwsFactory instance at 0x3aab9e0>
+2016-02-14 04:47:37-0500 [-] clientCode served from directory clientCode
+2016-02-14 04:47:37-0500 [-] clientCode directory doesn't exist
+2016-02-14 04:47:37-0500 [-] Site starting on 55812
+2016-02-14 04:47:37-0500 [-] Starting factory <twisted.web.server.Site instance at 0x3aa7ab8>

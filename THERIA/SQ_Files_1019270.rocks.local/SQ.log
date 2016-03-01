@@ -1,0 +1,30 @@
+2016-02-15 10:23:09.671 INFO Started personal networkspace server: compute-4-11.local 46372 37771
+2016-02-15 10:23:09.672 INFO Control process is 14831.
+2016-02-15 10:23:09.672 INFO sqDedicated run started using nws server compute-4-11.local 46372
+2016-02-15 10:23:09.672 INFO Sentinel key: SENTINEL_jkg36_Mon_Feb_15_10:23:09_2016_THERIA_V2.simplequeue
+2016-02-15 10:23:09.701 INFO pbsdsh pid: 14837
+2016-02-15 10:23:11.368 INFO Nodelist: ['compute-3-4.local', 'compute-3-7.local', 'compute-3-9.local', 'compute-4-11.local']
+2016-02-15 10:23:11.381 INFO Launching on 8 (compute-4-11.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr2
+2016-02-15 10:23:11.383 INFO Fetching extra data for task 0 from workspace.
+2016-02-15 10:23:11.581 INFO Launching on 24 (compute-3-7.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr22
+2016-02-15 10:23:11.583 INFO Fetching extra data for task 1 from workspace.
+2016-02-15 10:23:11.782 INFO Launching on 13 (compute-3-9.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr16
+2016-02-15 10:23:11.784 INFO Fetching extra data for task 2 from workspace.
+2016-02-15 10:23:11.982 INFO Launching on 33 (compute-3-4.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr11
+2016-02-15 10:23:11.984 INFO Fetching extra data for task 3 from workspace.
+2016-02-15 10:23:12.182 INFO All tasks launched.
+2016-02-15 10:23:12.183 INFO Draining pool.
+2016-02-15 14:43:47.576 INFO Extra data for task 1 from workspace: (0, 0) 1455549791.586438 1455565427.485643 0 25293 compute-3-7.local
+2016-02-15 14:43:47.577 INFO Releasing 24 (compute-3-7.local) for task 1 (True).
+2016-02-15 17:34:22.402 INFO Extra data for task 2 from workspace: (0, 0) 1455549791.800945 1455575662.239907 0 14741 compute-3-9.local
+2016-02-15 17:34:22.403 INFO Releasing 13 (compute-3-9.local) for task 2 (True).
+2016-02-16 06:03:10.648 INFO Extra data for task 3 from workspace: (0, 0) 1455549791.987604 1455620590.629470 0 24350 compute-3-4.local
+2016-02-16 06:03:10.649 INFO Releasing 33 (compute-3-4.local) for task 3 (True).
+2016-02-17 10:56:15.204 INFO Extra data for task 0 from workspace: (0, 0) 1455549791.399676 1455724575.178919 0 14849 compute-4-11.local
+2016-02-17 10:56:15.205 INFO Releasing 8 (compute-4-11.local) for task 0 (True).
+2016-02-17 10:56:15.206 INFO Notify drainCV.
+2016-02-17 10:56:15.206 INFO runTasks has finished.
+2016-02-17 10:56:15.227 INFO Remaining tasks dumped to THERIA_V2.simplequeue.REMAINING.
+2016-02-17 10:56:15.228 INFO Run completed.
+2016-02-17 10:56:15.232 INFO Received signal 15, but already shutting down.
+2016-02-17 10:56:15.232 INFO Falling off the end of the world.

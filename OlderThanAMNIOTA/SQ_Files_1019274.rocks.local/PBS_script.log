@@ -1,0 +1,5 @@
+2016-02-15 10:45:13,316 INFO Batch script starting in earnest (pid: 9499).
+2016-02-15 10:45:13,316 INFO About to Popen ['/ycga-ba/home/nick/projects/SimpleQueue/SimpleQueue/2012/SQDedDriver.py', '--logFile=SQ_Files_1019274.rocks.local//SQ.log', '--maxTasksPerNode=1', '--pnwss', '--wrapperVerbose', 'OT_AMNIOTA_V1.simplequeue'].
+2016-02-15 10:45:13,318 INFO Child 9500 started.
+2016-02-16 14:34:24,679 INFO Writing exited file.
+2016-02-16 14:34:24,776 INFO Batch script exiting, 0.

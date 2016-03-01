@@ -1,0 +1,36 @@
+INFO 2016-02-14 11:32:35,840 Started personal networkspace server: compute-3-3.local 36117 58836
+INFO 2016-02-14 11:32:35,841 Control process is 10458.
+INFO 2016-02-14 11:32:35,841 sqDedicated run started using nws server compute-3-3.local 36117
+INFO 2016-02-14 11:32:35,841 Sentinel key: SENTINEL_jkg36_Sun_Feb_14_11:32:35_2016_THERIA_V1.simplequeue
+INFO 2016-02-14 11:32:35,853 pbsdsh pid: 10461
+INFO 2016-02-14 11:32:37,795 Nodelist: ['compute-1-13.local', 'compute-1-16.local', 'compute-2-14.local', 'compute-3-3.local']
+INFO 2016-02-14 11:32:37,807 Launching on 3 (compute-3-3.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr1
+INFO 2016-02-14 11:32:37,809 Fetching extra data for task 0 from workspace.
+INFO 2016-02-14 11:32:38,008 Launching on 25 (compute-1-16.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr21
+INFO 2016-02-14 11:32:38,009 Fetching extra data for task 1 from workspace.
+INFO 2016-02-14 11:32:38,208 Launching on 27 (compute-1-13.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr17
+INFO 2016-02-14 11:32:38,209 Fetching extra data for task 2 from workspace.
+INFO 2016-02-14 11:32:38,408 Launching on 16 (compute-2-14.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr12
+INFO 2016-02-14 11:32:38,409 Fetching extra data for task 3 from workspace.
+INFO 2016-02-14 11:32:38,608 All tasks launched.
+INFO 2016-02-14 11:32:38,609 Draining pool.
+INFO 2016-02-14 12:17:47,521 Extra data for task 1 from workspace: (0, 0) 1455467558.011814 1455470267.456550 0 634 compute-1-16.local
+INFO 2016-02-14 12:17:47,523 Releasing 25 (compute-1-16.local) for task 1 (True).
+INFO 2016-02-15 00:37:57,661 Extra data for task 3 from workspace: (0, 0) 1455467558.437029 1455514677.490073 0 10877 compute-2-14.local
+INFO 2016-02-15 00:37:57,663 Releasing 16 (compute-2-14.local) for task 3 (True).
+INFO 2016-02-15 01:47:50,204 Extra data for task 2 from workspace: (0, 0) 1455467558.211820 1455518870.060428 0 8219 compute-1-13.local
+INFO 2016-02-15 01:47:50,205 Releasing 27 (compute-1-13.local) for task 2 (True).
+=>> PBS: job killed: node 3 (compute-1-13) requested job terminate, 'EOF' (code 1099) - received SISTER_EOF attempting to communicate with sister MOM's
+INFO 2016-02-15 10:42:02,973 Received signal 15. Shutting down.
+INFO 2016-02-15 10:42:02,974 Inflight:
+INFO 2016-02-15 10:42:02,974 	0: ('3', 'compute-3-3.local', 'source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr1')
+INFO 2016-02-15 10:42:02,974 In shutdown.
+INFO 2016-02-15 10:42:02,974 Engine queue is now empty.
+INFO 2016-02-15 10:42:02,974 Poison engine in engine queue.
+INFO 2016-02-15 10:42:02,976 Poison tasks sent.
+INFO 2016-02-15 10:42:03,059 Received signal 15. Shutting down.
+INFO 2016-02-15 10:42:03,060 Inflight:
+INFO 2016-02-15 10:42:03,060 	0: ('3', 'compute-3-3.local', 'source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr1')
+INFO 2016-02-15 10:42:03,060 In shutdown.
+INFO 2016-02-15 10:42:03,060 Poison engine in engine queue.
+INFO 2016-02-15 10:42:03,060 Poison tasks sent.

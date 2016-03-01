@@ -1,0 +1,6 @@
+2016-02-15 10:23:11,251 INFO Wrapper script running on compute-3-7.local (pid: 25290, 24).
+2016-02-15 10:23:11,253 INFO Opened workspace SENTINEL_jkg36_Mon_Feb_15_10:23:09_2016_THERIA_V2.simplequeue on compute-4-11.local at 46372.
+2016-02-15 10:23:11,583 INFO Fetched task 1: source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr22
+2016-02-15 10:23:11,587 INFO Task 1: child 25293 started at 1455549791.586438
+2016-02-15 14:43:47,485 INFO Task 1: pid 25293 returned 0.
+2016-02-17 10:56:15,230 INFO Wrapper script exiting on compute-3-7.local (pid: 25290, 24), "engine 24 task" after 1 tasks.

@@ -1,0 +1,5 @@
+2016-02-18 03:15:55,070 INFO Wrapper script running on compute-3-9.local (pid: 12942, 39).
+2016-02-18 03:15:55,072 INFO Opened workspace SENTINEL_jkg36_Thu_Feb_18_03:15:54_2016_EUTHERIA_V4.simplequeue on compute-4-11.local at 48107.
+2016-02-18 03:15:57,965 INFO Fetched task 0: source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/EUTHERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr3
+2016-02-18 03:15:57,981 INFO Task 0: child 12946 started at 1455783357.980248
+2016-02-24 17:46:11,785 INFO Wrapper script exiting on compute-3-9.local (pid: 12942, 39), "engine 39 task" after 1 tasks.

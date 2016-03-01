@@ -1,0 +1,11 @@
+#PBS -q general
+#PBS -N OT_Amni_v2
+#PBS -l nodes=2:ppn=8,mem=35gb
+#PBS -l walltime=12:00:00
+#PBS -m abe -M Jake.Gockley@yale.edu
+
+source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/OlderThanAMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr2
+source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/OlderThanAMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr22
+source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/OlderThanAMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr16
+source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/OlderThanAMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr11
+

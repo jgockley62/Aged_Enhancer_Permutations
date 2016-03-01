@@ -1,0 +1,4 @@
+1	(0, 0)	1455549791.586438	1455565427.485643	0	25293	compute-3-7.local	source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr22
+2	(0, 0)	1455549791.800945	1455575662.239907	0	14741	compute-3-9.local	source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr16
+3	(0, 0)	1455549791.987604	1455620590.629470	0	24350	compute-3-4.local	source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr11
+0	(0, 0)	1455549791.399676	1455724575.178919	0	14849	compute-4-11.local	source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr2

@@ -1,0 +1,5 @@
+INFO 2016-02-18 08:10:29,631 Started personal networkspace server: compute-7-1.local 45401 54416
+INFO 2016-02-18 08:10:29,631 Control process is 5039.
+INFO 2016-02-18 08:10:29,631 sqDedicated run started using nws server compute-7-1.local 45401
+INFO 2016-02-18 08:10:29,632 Sentinel key: SENTINEL_jkg36_Thu_Feb_18_08:10:29_2016_EUTHERIA_V5.simplequeue
+INFO 2016-02-18 08:10:29,660 pbsdsh pid: 5042

@@ -1,0 +1,40 @@
+INFO 2016-02-18 03:15:54,356 Started personal networkspace server: compute-4-11.local 48107 36731
+INFO 2016-02-18 03:15:54,356 Control process is 683.
+INFO 2016-02-18 03:15:54,357 sqDedicated run started using nws server compute-4-11.local 48107
+INFO 2016-02-18 03:15:54,357 Sentinel key: SENTINEL_jkg36_Thu_Feb_18_03:15:54_2016_EUTHERIA_V4.simplequeue
+INFO 2016-02-18 03:15:54,366 pbsdsh pid: 687
+INFO 2016-02-18 03:15:57,947 Nodelist: ['compute-3-11.local', 'compute-3-12.local', 'compute-3-9.local', 'compute-4-11.local', 'compute-4-2.local']
+INFO 2016-02-18 03:15:57,964 Launching on 39 (compute-3-9.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/EUTHERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr3
+INFO 2016-02-18 03:15:57,966 Fetching extra data for task 0 from workspace.
+INFO 2016-02-18 03:15:58,165 Launching on 4 (compute-4-11.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/EUTHERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr19
+INFO 2016-02-18 03:15:58,166 Fetching extra data for task 1 from workspace.
+INFO 2016-02-18 03:15:58,365 Launching on 19 (compute-3-12.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/EUTHERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr14
+INFO 2016-02-18 03:15:58,367 Fetching extra data for task 2 from workspace.
+INFO 2016-02-18 03:15:58,565 Launching on 14 (compute-4-2.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/EUTHERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr9
+INFO 2016-02-18 03:15:58,567 Fetching extra data for task 3 from workspace.
+INFO 2016-02-18 03:15:58,766 Launching on 29 (compute-3-11.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/EUTHERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr6
+INFO 2016-02-18 03:15:58,767 Fetching extra data for task 4 from workspace.
+INFO 2016-02-18 03:15:58,966 All tasks launched.
+INFO 2016-02-18 03:15:58,966 Draining pool.
+INFO 2016-02-18 17:55:59,970 Extra data for task 2 from workspace: (0, 0) 1455783358.379467 1455836159.912806 0 27888 compute-3-12.local
+INFO 2016-02-18 17:55:59,972 Releasing 19 (compute-3-12.local) for task 2 (True).
+INFO 2016-02-18 20:18:49,359 Extra data for task 1 from workspace: (0, 0) 1455783358.196831 1455844729.262197 0 700 compute-4-11.local
+INFO 2016-02-18 20:18:49,361 Releasing 4 (compute-4-11.local) for task 1 (True).
+INFO 2016-02-18 21:20:15,579 Extra data for task 4 from workspace: (0, 0) 1455783358.779253 1455848415.507132 0 1525 compute-3-11.local
+INFO 2016-02-18 21:20:15,581 Releasing 29 (compute-3-11.local) for task 4 (True).
+INFO 2016-02-18 22:24:40,955 Extra data for task 3 from workspace: (0, 0) 1455783358.570176 1455852280.776981 0 11686 compute-4-2.local
+INFO 2016-02-18 22:24:40,957 Releasing 14 (compute-4-2.local) for task 3 (True).
+INFO 2016-02-19 04:02:08,141 Extra data for task 0 from workspace: (0, 6) 1455783357.980248 1455872528.108325 0 12946 compute-3-9.local
+INFO 2016-02-19 04:02:08,143 Releasing 39 (compute-3-9.local) for task 0 (False).
+INFO 2016-02-19 04:02:08,143 Notify drainCV.
+INFO 2016-02-19 04:02:08,144 runTasks has finished.
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/home/software/builds/njc2/python/core/Python-2.7.3/Installation/lib/python2.7/threading.py", line 551, in __bootstrap_inner
+  File "/home/software/builds/njc2/python/core/Python-2.7.3/Installation/lib/python2.7/threading.py", line 504, in run
+  File "/ycga-ba/home/nick/projects/SimpleQueue/SimpleQueue/2012/SQDedDriver.py", line 352, in runThread
+IOError: [Errno 6] No such device or address
+
+=>> PBS: job killed: node 1 (compute-4-2) requested job terminate, 'EOF' (code 1099) - received SISTER_EOF attempting to communicate with sister MOM's
+Traceback (most recent call last):
+  File "/home/software/builds/njc2/python/core/Python-2.7.3/Installation/lib/python2.7/logging/__init__.py", line 870, in emit

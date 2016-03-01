@@ -1,0 +1,5 @@
+2016-02-14 11:32:37,716 INFO Wrapper script running on compute-1-13.local (pid: 8209, 27).
+2016-02-14 11:32:37,719 INFO Opened workspace SENTINEL_jkg36_Sun_Feb_14_11:32:35_2016_THERIA_V1.simplequeue on compute-3-3.local at 36117.
+2016-02-14 11:32:38,208 INFO Fetched task 2: source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/THERIA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr17
+2016-02-14 11:32:38,213 INFO Task 2: child 8219 started at 1455467558.211820
+2016-02-15 01:47:50,011 INFO Task 2: pid 8219 returned 0.

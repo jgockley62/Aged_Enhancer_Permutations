@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/software/python/Python-2.6.4/lib/python2.6/logging/__init__.py", line 789, in emit
+    stream.write(fs % msg)
+ValueError: I/O operation on closed file

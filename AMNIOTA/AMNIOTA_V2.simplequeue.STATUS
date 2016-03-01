@@ -1,0 +1,4 @@
+1	(0, 0)	1455339336.396322	1455354424.118612	0	1276	compute-1-12.local	source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/AMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr22
+2	(0, 0)	1455339336.583198	1455384413.797878	0	1232	compute-1-1.local	source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/AMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr16
+3	(0, 0)	1455339336.753260	1455453312.176067	0	10034	compute-10-16.local	source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/AMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr11
+0	(0, 0)	1455339336.158906	1455467522.167930	0	389	compute-1-2.local	source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/AMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr2

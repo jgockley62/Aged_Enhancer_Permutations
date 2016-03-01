@@ -1,0 +1,30 @@
+INFO 2016-02-12 23:55:34,910 Started personal networkspace server: compute-1-12.local 36107 40354
+INFO 2016-02-12 23:55:34,910 Control process is 1256.
+INFO 2016-02-12 23:55:34,911 sqDedicated run started using nws server compute-1-12.local 36107
+INFO 2016-02-12 23:55:34,911 Sentinel key: SENTINEL_jkg36_Fri_Feb_12_23:55:34_2016_AMNIOTA_V2.simplequeue
+INFO 2016-02-12 23:55:34,940 pbsdsh pid: 1261
+INFO 2016-02-12 23:55:36,128 Nodelist: ['compute-1-1.local', 'compute-1-12.local', 'compute-1-2.local', 'compute-10-16.local']
+INFO 2016-02-12 23:55:36,148 Launching on 12 (compute-1-2.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/AMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr2
+INFO 2016-02-12 23:55:36,149 Fetching extra data for task 0 from workspace.
+INFO 2016-02-12 23:55:36,348 Launching on 7 (compute-1-12.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/AMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr22
+INFO 2016-02-12 23:55:36,349 Fetching extra data for task 1 from workspace.
+INFO 2016-02-12 23:55:36,548 Launching on 20 (compute-1-1.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/AMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr16
+INFO 2016-02-12 23:55:36,550 Fetching extra data for task 2 from workspace.
+INFO 2016-02-12 23:55:36,749 Launching on 30 (compute-10-16.local): source ~/.bashrc; cd /ycga-ba/home/jkg36/DEENA_Shuf/AMNIOTA; perl ../Permuter.pl ../hg19.chrom.sizes ReAranged.bed Chr11
+INFO 2016-02-12 23:55:36,750 Fetching extra data for task 3 from workspace.
+INFO 2016-02-12 23:55:36,949 All tasks launched.
+INFO 2016-02-12 23:55:36,949 Draining pool.
+INFO 2016-02-13 04:07:04,152 Extra data for task 1 from workspace: (0, 0) 1455339336.396322 1455354424.118612 0 1276 compute-1-12.local
+INFO 2016-02-13 04:07:04,154 Releasing 7 (compute-1-12.local) for task 1 (True).
+INFO 2016-02-13 12:26:53,853 Extra data for task 2 from workspace: (0, 0) 1455339336.583198 1455384413.797878 0 1232 compute-1-1.local
+INFO 2016-02-13 12:26:53,855 Releasing 20 (compute-1-1.local) for task 2 (True).
+INFO 2016-02-14 07:35:12,291 Extra data for task 3 from workspace: (0, 0) 1455339336.753260 1455453312.176067 0 10034 compute-10-16.local
+INFO 2016-02-14 07:35:12,294 Releasing 30 (compute-10-16.local) for task 3 (True).
+INFO 2016-02-14 11:32:02,287 Extra data for task 0 from workspace: (0, 0) 1455339336.158906 1455467522.167930 0 389 compute-1-2.local
+INFO 2016-02-14 11:32:02,288 Releasing 12 (compute-1-2.local) for task 0 (True).
+INFO 2016-02-14 11:32:02,289 Notify drainCV.
+INFO 2016-02-14 11:32:02,289 runTasks has finished.
+INFO 2016-02-14 11:32:02,316 Remaining tasks dumped to AMNIOTA_V2.simplequeue.REMAINING.
+INFO 2016-02-14 11:32:02,317 Run completed.
+INFO 2016-02-14 11:32:02,320 Received signal 15, but already shutting down.
+INFO 2016-02-14 11:32:02,320 Falling off the end of the world.

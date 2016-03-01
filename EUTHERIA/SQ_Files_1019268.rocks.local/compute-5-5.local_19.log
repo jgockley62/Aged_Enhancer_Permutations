@@ -1,0 +1,3 @@
+2016-02-18 08:10:30,717 INFO Wrapper script running on compute-5-5.local (pid: 20954, 19).
+2016-02-18 08:10:30,719 INFO Opened workspace SENTINEL_jkg36_Thu_Feb_18_08:10:29_2016_EUTHERIA_V5.simplequeue on compute-7-1.local at 45401.
+2016-02-18 08:22:10,005 INFO Wrapper script exiting on compute-5-5.local (pid: 20954, 19), "engine 19 task" after 0 tasks.
